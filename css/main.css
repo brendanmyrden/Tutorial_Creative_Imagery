@@ -21,14 +21,25 @@
 }
 
 body {
-    background-image: url(..img/bg.jpg);
+    background-image: url(../img/pexels-seamlesstextures-11255112.jpg);
     background-size: 50px;
     color: #fafafa;
     font-family: Consequences-c;
     overflow: hidden;
+}
+
+.hero {
+    width: calc(var(--index) * 36);
+    position: absolute;
+    left: 37vw;
+    top: 8vh; 
+}
+.container{
+    padding: 7vw;
 
 }
 
-
-
-
+.main-title {
+    font-size: calc(var(--index) * 8);
+    position: absolute;
+}
