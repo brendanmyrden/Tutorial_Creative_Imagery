@@ -20,6 +20,10 @@
     src: url(../fonts/Consequences.woff2);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Consequences-c;
+}
+
 body {
     background-image: url(../img/pexels-seamlesstextures-11255112.jpg);
     background-size: 50px;
@@ -42,4 +46,8 @@ body {
 .main-title {
     font-size: calc(var(--index) * 8);
     position: absolute;
+    width: min-content;
+    bottom: 12vh;
+    line-height: .9;
+
 }
